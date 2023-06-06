@@ -42,7 +42,7 @@ require 'vendor/autoload.php';
 2. Tiếp theo, tạo một instance của lớp `Poe` và cung cấp cookie và tên của chatbot. Ví dụ:
 
 ```php
-use KhaiPhan\Google\Poe;
+use KhaiPhan\Quora\Poe;
 
 $poeSage = new Poe('p-b', 'Sage');
 ```

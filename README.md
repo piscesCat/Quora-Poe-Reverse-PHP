@@ -42,7 +42,7 @@ require 'vendor/autoload.php';
 2. Next, create an instance of the `Poe` class and provide the cookie and the name of the chatbot. For example:
 
 ```php
-use KhaiPhan\Google\Poe;
+use KhaiPhan\Quora\Poe;
 
 $poeSage = new Poe('p-b', 'Sage');
 ```

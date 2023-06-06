@@ -1,0 +1,29 @@
+{
+    "name": "khaiphan/poe-reverse",
+    "type": "library",
+    "description": "This is an unofficial composer library designed to interact with Poe.com's Chatbot using PHP.",
+    "keywords": [
+        "quora",
+        "reverse",
+        "poe",
+        "poe.com",
+        "library",
+        "composer"
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "php": "^7.2.5 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KhaiPhan\\Quora\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khai Phan",
+            "role": "Developer"
+        }
+    ]
+}
